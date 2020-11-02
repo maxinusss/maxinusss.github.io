@@ -1,0 +1,356 @@
+    body { font-family: 'Lato', sans-serif;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    *{
+        margin: 0;
+       }
+    .header {
+        background:url(src/mountains2.jpg);
+        height: 800px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24), 0 3px 3px 0 rgba(0,0,0,0.19);        
+
+    }
+    .headerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .headertext{
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .descriptioncontainer{
+        color:white;
+        display:flex;
+        justify-content: center;
+    }
+    .descriptioncontent{
+        font-size: 20px;
+        color: white;
+        display: flex;
+        padding: 20px;
+        text-align: center;
+    }
+    .Headings {
+        color: whitesmoke;
+        background-color: rgb(153, 161, 199);
+        text-align: left;
+        font-size: 20px;
+        padding: 10px;
+        width: 50%;
+    }
+    .workcontainer{
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+    }
+    .workButton{
+        color:white;
+        background-color: rgba(250, 206, 240, 0.6);
+        border: 2px white solid;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 20px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+    }
+    .workButton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);        
+    }
+    .flexinfo{
+        text-align: center;
+        font-size: 10px;
+    }
+    .flex-containera{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex: 1;
+        flex-wrap: nowrap;
+        height: 400px;
+    }
+    .flex-containera > div{
+        margin: 10px;
+        text-align: center;
+        align-content: center;
+        line-height: 18px;
+        font-size: 20px;
+        color: gray;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        background-color:  rgba(153, 161, 199, 0.35);
+
+    }
+    .flex-containera > div:hover{
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0,0,0,0.19);        
+    }
+    .flex-containerb{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .flex-containerb > div{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .sectiontitle{
+        color: whitesmoke;
+        text-align: left;
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .sectiontitlebackground1{
+        background-color: rgb(183, 186, 225);
+        height: 80px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 8px 10px 0 rgba(0,0,0,0.19);
+        margin-right: 30px;
+    }
+    .resumebutton{
+        background-color: rgb(183, 186, 225);
+        border: 2px solid whitesmoke;
+        color:whitesmoke;
+        padding: 15px 15px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        cursor: pointer;
+        height: 50px;
+        margin-top: 18px;
+    }      
+    .resumebutton:hover{
+         box-shadow: 0 12px 16px 0 rgba(255,255,255,0.4), 0 17px 50px 0 rgba(255,255,255,0.14); 
+         background-color: whitesmoke; 
+    }
+    .resumecontainer{
+        position: relative;
+        display:flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+    .sectiontitlebackground2{
+        background-color: rgb(183, 200, 225);
+        height: 80px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 8px 10px 0 rgba(0,0,0,0.19);
+        margin-right: 30px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .inside{
+        text-align: left;
+        color: #a6a6aa;
+        font-size: 24px;
+    }
+    .resumetext{
+        color:whitesmoke;
+
+    }
+    .resumetext:hover{
+        color: rgb(183, 186, 225);
+    }
+    a.c1:link {
+        color: whitesmoke;
+        text-decoration: underline;
+    }
+    a.c1:visited{
+        color: whitesmoke;
+    }
+    a.c1:hover{
+        color: rgb(121, 85, 250);
+    }
+    a.c2 {
+        color :rgb(121, 85, 250);
+        text-decoration: none;
+    }
+    a.c2:hover{
+        color: rgb(153, 161, 199);
+        text-decoration: underline;
+        
+    }
+    a.c3:hover, a.c3:active {
+        color: white;
+        text-decoration: underline;
+    }
+    a.c3{
+        color: white;
+        text-decoration: none;
+    }
+    .buttoncontainer{
+        margin-right: 30px;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+ 
+    }
+    .mailbutton{
+        background-color: rgb(183, 200, 225);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        display: flex;
+        align-content: flex-end;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        border: 2px solid whitesmoke;
+        color:whitesmoke;
+        padding: 15px 15px;
+        font-size: 25px;
+        cursor: pointer;
+        height: 50px;
+        margin-top: 18px;
+    }        
+    .mailbutton:hover {
+        box-shadow: 0 12px 16px 0 rgba(255,255,255,0.4), 0 17px 50px 0 rgba(255,255,255,0.14); 
+        background-color: white;
+        color: rgb(196, 152, 166);
+    }
+    .mailbuttontext{
+        color: whitesmoke;
+    }
+    .mailbuttontext:hover{
+        color: rgb(183, 200, 225);
+    }
+    a.mailbuttonlink{
+        text-decoration: none;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(153, 161, 199, 0.7);
+
+      }
+      .flexatext{
+          margin-top: 150px;
+      }
+      .overlay {
+        position: absolute ;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width:100%;
+        height: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius:10px;
+        background-color: rgba(153, 161, 199, 0.95);
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      .text {
+        color: whitesmoke;
+        font-size: 17px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .background1{
+          padding: 10px;
+          opacity: 0.7;
+          height: 500px;
+          margin-left: 100px;
+          margin-right: 100px;
+      }
+
+      .note{
+          font-size: 10px;
+          margin-left: 20px;
+          color: grey;
+          display: flex;
+          align-items: flex-end;
+      }
+      .footer {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color:rgba(206, 174, 212, 0.7);
+     }
+     .footerInfo1{
+         text-align: left;
+         margin-left: 10px;
+         padding: 15px;
+         color: white;
+         font-size: 20px;
+     }
+     .footercontainer{
+         display:flex;
+         justify-content: center;
+     }
+     .footerInfo2{
+         color: white;
+         font-size: 12px;
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+     }
+
+    .linespace{
+      height: 10px;
+     }
+
+    .button3{
+        border: 2px solid  rgba(196, 152, 166, .7);
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 20px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+    }           
+    .button4:hover {
+        box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    a.c5:hover, a.c5:active {
+        color: rgb(196, 152, 166);
+        text-decoration: underline;
+    }
+    a.c5,  a.c5:visited{
+        color: rgb(196, 152, 166);
+        text-decoration: none;
+    }
+      .fa:hover {
+          opacity: 0.7;
+      }
+    a.c6{
+        color: white
+    }
+
