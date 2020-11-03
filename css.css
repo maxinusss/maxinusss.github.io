@@ -128,9 +128,10 @@
         background-color: rgb(157, 161, 223);
         border: 2px solid white;
         color:white;
-        padding: 15px 15px;
         text-decoration: none;
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: 22px;
         cursor: pointer;
         height: 50px;
@@ -156,7 +157,9 @@
         align-content: center;
         justify-content: space-between;
     }
-
+    a.resume{
+        text-decoration: none;
+    }
     .flexbtext{
         text-align: left;
         color: #8a8a8b;
@@ -164,6 +167,7 @@
     }
     .resumetext{
         color:white;
+        text-decoration: none;
 
     }
     .resumetext:hover{
@@ -207,17 +211,14 @@
         background-color: rgb(143, 174, 221);
         text-align: center;
         text-decoration: none;
-        display: inline-block;
-        cursor: pointer;
         display: flex;
-        align-content: flex-end;
+        align-items: center;
+        justify-content: center;
         -webkit-transition-duration: 0.4s; 
         transition-duration: 0.4s;
         border: 2px solid white;
         color:white;
-        padding: 15px 15px;
         font-size: 25px;
-        cursor: pointer;
         height: 50px;
         margin-top: 18px;
     }        
@@ -268,7 +269,7 @@
       }
       .text {
         color: white;
-        font-size: 17px;
+        font-size: 8px;
         position: absolute;
         top: 50%;
         left: 50%;
